@@ -1,6 +1,6 @@
 'use strict';
 
-/** @typedef {[rating: number, rd: number, vol: number]} Opponent */
+/** @typedef {[rating: number, rd: number, score: number]} Opponent */
 
 /**
  * @typedef {object} ScaledOpponent
