@@ -3,3 +3,5 @@ npm-debug.log
 *.d.ts
 
 hearts_example.js
+.github/
+bench/
