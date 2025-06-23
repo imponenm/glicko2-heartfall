@@ -1,5 +1,5 @@
 {
-  "name": "glicko2-lite",
+  "name": "glicko2-heartfall",
   "version": "4.0.0",
   "description": "Barebones Glicko-2 implementation",
   "keywords": [

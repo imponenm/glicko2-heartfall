@@ -1,4 +1,4 @@
-# glicko2-lite
+# glicko2-heartfall
 
 An implementation of the Glicko-2 rating algorithm using glicko2-lite and
 adapted specifically for the 4-player card game of Hearts. The goal is to
@@ -8,7 +8,7 @@ time while supporting multi-player game scenarios.
 ## Example
 
 ``` javascript
-const glicko2 = require('glicko2-lite');
+const glicko2 = require('glicko2-heartfall');
 
 // Hearts game with 4 players:
 // Player A: 1500 rating, 350 rating deviation - finished 4th (score: 0.0)
@@ -32,13 +32,13 @@ glicko2(1500, 350, 0.06, [
 ## Installation
 
 ``` bash
-$ npm install glicko2-lite
+$ npm install imponenm:glicko2-heartfall
 ```
 
 ## API
 
 ``` javascript
-const glicko2 = require('glicko2-lite');
+const glicko2 = require('glicko2-heartfall');
 ```
 
 ### `glicko2(rating, rd, vol, matches, [options])`
