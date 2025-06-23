@@ -6,5 +6,5 @@
     "declaration": true,
     "emitDeclarationOnly": true
   },
-  "include": ["*.js", "test/**/*.js"]
+  "include": ["index.js", "test/**/*.js"]
 }
