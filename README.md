@@ -11,11 +11,10 @@ time while supporting multi-player game scenarios.
 const glicko2 = require('glicko2-lite');
 
 // Hearts game with 4 players:
-// Player A: 1500 rating, 350 rating deviation, and 0.06 volatility
+// Player A: 1500 rating, 350 rating deviation - finished 4th (score: 0.0)
 // Player B: 2000 rating, 70 rating deviation - finished 1st (score: 1.0)
 // Player C: 1800 rating, 100 rating deviation - finished 2nd (score: 0.66)  
 // Player D: 1200 rating, 200 rating deviation - finished 3rd (score: 0.33)
-// Player A finished 4th (score: 0.0)
 
 // Calculate Player A's new rating after this Hearts game:
 glicko2(1500, 350, 0.06, [
